@@ -8,6 +8,58 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<form method="post" action="file.js" name="form" id="form">
+<div>
+	<label for="name">Name</label><br>
+	<input type="text" name="name" id="name" placeholder="write your name" required>
+</div>
+<div>
+	<label for="email">Email<label><br>
+		<input type="email" name="email" id="email" placeholder="write your email" required>
+	</div>
+<div>
+	<label for="gender">Gender</label><br>
+	<input type="radio" value="male" name="gender"> Male <br> 
+	<input type="radio" value="Female" name="gender"> Female 
+</div>	
+<div>
+	<label for="items">Car Brands</label><br>
+	<select name="topics" name="items" id="items" placeholder="Please choose an option" required >
+		<option value="BMW">BMW</option>
+		<option value="Audi">Audi</option>
+		<option value="Mercedez">Mercede</option>
+	</select>
+</div>	
+<div>
+	<label for="age">Age<label><br>
+		<input type="number" name="age" id="age" placeholder="write your age" required>
+</div>
+		<div>
+			<lable for="dob">DOB</lable><br>
+			<input type="date" name="dob" id="dob" required>
+		</div>
+		<div>
+			<label for="PhoneNo">Phone Number</label><br>
+			<input type="tel" name="PhoneNo" id="PhoneNo" placeholder="xxx-xxx-xxxx" >
+		</div>
+		<div>
+			<label for="password">Password<label><br>
+				<input type="password" name="password" id="password" required>
+		</div>
+				<div>
+					<label for="cars">Choose your car </label><br>
+					BMW<input type="checkbox" name="cars" id="cars" value="BMW"><br>
+					Audi<input type="checkbox" name="cars" id="cars" value="Audi"><br>
+					Mercedez<input type="checkbox" name="cars" id="cars" value="Mersedez"><br>
+				</div>
+				<div>
+					<button>Submit</button>
+				</div>
+				
+		
+
+		
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
